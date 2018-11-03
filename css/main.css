@@ -186,13 +186,6 @@ main {
   background: white;
   color: #000; }
 
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #c4c4c4;
-  color: #000;
-  height: 60px; }
-
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
