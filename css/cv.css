@@ -1,0 +1,263 @@
+/*[class*="col-"]
+   {
+
+    border: 2px solid green;
+    min-height: 50px;
+  }*/
+
+body {
+  background-color: #50454c;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.spread {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical_center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_center_v {
+  vertical-align: -moz-middle-with-baseline;
+  vertical-align: -webkit-baseline-middle;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.block {
+  background-color: #fef7f3;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 4px solid #9d5c63;
+}
+
+.exp-header {
+  background-color: #d6e3f8;
+}
+
+.cursus-header {
+  background-color: #e4bb97;
+}
+
+@media screen and (max-width: 1199px) {
+  .block {
+    border-radius: 0;
+    border: none;
+  }
+}
+
+.pad-top {
+  padding-top: 5.5rem;
+}
+
+.profile-pic img {
+  max-width: 180px;
+  border-radius: 6px;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.714em;
+  line-height: 1.45em;
+  margin-bottom: 15px;
+}
+
+#fn,
+#ln {
+  font-weight: bold;
+}
+
+.card {
+  border: 0;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.title,
+.job {
+  font-weight: bold;
+}
+
+.job {
+  text-transform: uppercase;
+}
+
+.skillbars {
+  width: 100%;
+}
+
+.skillbars .skillbar {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  margin-bottom: 30px;
+  background-color: #edebec;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.skillbars .skillbar::before {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: #c2c0c0;
+}
+
+.skillbars .count-bar {
+  width: 0px;
+  position: relative;
+  height: 50px;
+  background-color: #249292;
+}
+
+.skillbars .count-bar::before {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  background-color: #0d7878;
+}
+
+.skillbars .count-bar::after {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #0d7878;
+}
+
+.skillbars .skill_title {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 12px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.skillbars .count
+{
+    position: absolute;
+    top:0;
+    right: -60px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b7c7c;
+}
+
+.blackiconcolor
+{
+    color: black;
+}
+
+.subtitle
+{
+  font-style: italic;
+}
+
+#about .btn {
+  border-width: 2px;
+  font-weight: bold;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 5px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #888;
+  color: #ffffff;
+}
+
+#about .btn-primary {
+  background-color: #249292;
+}
+
+#about .btn-primary:hover
+{
+  background-color: #0d7878;
+}
+
+/* OLD */
+
+/* MENU */
+.menu-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* PROFILE PAGE */
+
+/* SOCIAL MEDIA AND UI*/
+.button-container {
+  margin-top: -36px;
+}
+
+.button-container .btn:nth-child(1) {
+  /* GITHUB */
+  background-color: #24292e;
+}
+
+.button-container .btn:nth-child(2) {
+  /* INSTAGRAM */
+  background-color: #e4405f;
+}
+
+.button-container .btn:nth-child(3) {
+  /* LINKEDIN */
+  background-color: #3998dc;
+}
+
+.btn.btn-icon.btn-lg {
+  height: 3.6rem;
+  min-width: 3.6rem;
+  width: 3.6rem;
+}
+
+.btn.btn-icon {
+  padding: 0;
+  position: relative;
+}
+
+.btn.btn-icon i.fab {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  line-height: 1.5626rem;
+  width: 25px;
+  -webkit-transform: translate(-12px, -12px);
+  transform: translate(-12px, -12px);
+}
+
+.btn.btn-icon.btn-lg i.fab {
+  font-size: 1.375rem;
+}
+
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px !important;
+  padding: 11px 23px;
+}
+
+
