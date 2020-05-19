@@ -19,6 +19,10 @@ body {
   background: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -310,7 +314,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #2F3C4F;
   background: rgba(176, 120, 202, 1);
 }
-.fh5co-bg-dark .fh5co-heading h2 {
+.fh5co-bg-dark .fh5co-heading h2, .fh5co-bg-dark .fh5co-heading h3, .fh5co-bg-dark .fh5co-heading h4, .fh5co-bg-dark .fh5co-heading h5, .fh5co-bg-dark .fh5co-heading h6 {
   color: #fff !important;
 }
 
