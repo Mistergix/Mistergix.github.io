@@ -10,7 +10,6 @@ module.exports = {
   },
   extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier',"plugin:vue/recommended",
   "eslint:recommended",
-  "prettier/vue",
   "plugin:prettier/recommended"],
   plugins: [],
   // add your custom rules here
@@ -21,8 +20,5 @@ module.exports = {
 },
 globals: {
   $nuxt: true
-},
-parserOptions: {
-  parser: "babel-eslint"
 }
 }

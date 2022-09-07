@@ -1,4 +1,7 @@
 {
-  "semi": false,
-  "singleQuote": true
+  "semi": true,
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
 }
