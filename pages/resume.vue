@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'MyResume',
+  name: 'MyResumePage',
 };
 </script>

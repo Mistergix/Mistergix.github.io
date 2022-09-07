@@ -1,1 +1,83 @@
-{}
+{
+  "basics": {
+    "name": "Nicolas RUCHE",
+    "nameSplit": [
+      {
+        "character": "N",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "i",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "c",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "o",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "l",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "a",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "s",
+        "letterSpacing": "-0.08em"
+      },
+      " ",
+      {
+        "character": "R",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "u",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "c",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "h",
+        "letterSpacing": "-0.08em"
+      },
+      {
+        "character": "e",
+        "letterSpacing": "-0.08em"
+      }
+    ],
+    "email": "nicolas@ruche.me",
+    "website": "https://ruche.me",
+    "location": {
+      "city": "Paris"
+    },
+    "profiles": [
+      {
+        "network": "GitLab",
+        "username": "Mistergix",
+        "url": "https://gitlab.com/Mistergix"
+      },
+      {
+        "network": "GitHub",
+        "username": "Mistergix",
+        "url": "https://github.com/Mistergix"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nruche",
+        "url": "https://www.linkedin.com/in/nruche/"
+      },
+      {
+        "network": "Twitter",
+        "username": "Nicruche",
+        "url": "https://twitter.com/Nicruche"
+      }
+    ]
+  }
+}

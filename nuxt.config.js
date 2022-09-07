@@ -11,19 +11,24 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Nicolas Ruche's website. You can download my résumé, see my portfolio and my demo reel from here." },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          "Nicolas Ruche's website. You can download my résumé, see my portfolio and my demo reel from here.",
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-    /*
+  /*
    ** Customize the progress-bar color
    */
-   loading: { color: '#fff' },
+  loading: { color: '#fff' },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/css/utilities.css', '@/assets/css/global.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['~/plugins/global-data'],
@@ -61,6 +66,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-     extend(config, ctx) {},
+    extend(config, ctx) {},
   },
-}
+};
