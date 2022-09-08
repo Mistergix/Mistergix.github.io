@@ -7,6 +7,7 @@
       class="paper-page flex flex-col h-auto paper:h-paper print:h-paper my-0 paper:my-20 print:my-0 p-4 sm:p-10 paper:p-20 print:p-20 text-xl md:text-base print:text-base shadow-none paper:shadow-2xl print:shadow-none bg-ivory print:bg-transparent"
     >
       <ResumeHeader />
+      <ResumeContent />
     </div>
   </div>
 </template>

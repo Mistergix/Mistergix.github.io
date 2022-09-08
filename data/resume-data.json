@@ -79,5 +79,174 @@
         "url": "https://twitter.com/Nicruche"
       }
     ]
-  }
+  },
+  "otherWork": [
+    {
+      "company": "SU Entrepreneurs Paris",
+      "summary": "Association de promotion de l'entrepreneuriat à Sorbonne Univesité.",
+      "position": "Président",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-30"
+    }
+  ],
+  "leisures": [
+    {
+      "data": "Origami, Cuisine, Dessin, Rollers"
+    }
+  ],
+  "trips": [
+    {
+      "data": "Russie, Pays-Bas, Italie"
+    }
+  ],
+  "work": [
+    {
+      "company": "Big Catto",
+      "summary": "Entreprise indépendante de développement de jeux vidéo. En cours de création",
+      "position": "PDG",
+      "startDate": "2021-08-31",
+      "highlights": [
+        "3 membres dans l'équipe",
+        "Un jeu en réalité virtuelle en cours de développement"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "summary": "Création de sites web pour des clients",
+      "position": "Développeur Full Stack",
+      "startDate": "2017-12-01",
+      "highlights": [
+        "Projet actuel : site personnel de la danseuse étoile Laura Hecquet"
+      ],
+      "tags": ["Node", "Vue", "MongoDb"]
+    },
+    {
+      "company": "Pangolapp (filiale de Voodoo)",
+      "website": "https://www.pangolapp.com",
+      "summary": "Développement de jeux hypercasual",
+      "position": "Développeur Gameplay / Game Designer",
+      "startDate": "2020-10-05",
+      "endDate": "2022-07-31",
+      "highlights": [
+        "Plus de 30 jeux développés",
+        "Des dizaines de millions de téléchargements"
+      ]
+    },
+    {
+      "company": "FMR Designer",
+      "summary": "Développement d'un site de services pour designers (aide à la vente, conception, production etc.)",
+      "position": "CTO",
+      "startDate": "2019-01-01",
+      "endDate": "2019-07-31",
+      "highlights": ["3 stagiaires", "Une dizaine de clients"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESGI Paris",
+      "website": "https://www.esgi.fr/programmes/ingenierie-3d-jeux-video.html",
+      "startDate": "2020-09-01",
+      "endDate": "2022-07-31",
+      "area": "Mastère Ingénierie de la 3D et du Jeu Vidéo",
+      "studyType": "Master"
+    },
+    {
+      "institution": "Pépite Sorbonne Paris",
+      "website": "https://www.pepite-france.fr/accompagnement-sur-mesure-pepite-france/#d2e",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-30",
+      "area": "Diplôme d'étudiant entrepreneur",
+      "studyType": "Bachelor",
+      "summary": "Stratégie Commerciale, Marketing, Communication, Droit, Création de marque, Business plan / model, Levée de fonds, Pitch etc."
+    },
+    {
+      "institution": "Sorbonne Science / Ex UPMC Paris",
+      "website": "https://sciences.sorbonne-universite.fr",
+      "startDate": "2017-09-01",
+      "endDate": "2020-06-30",
+      "area": "Licence Informatique et Design UX",
+      "studyType": "Bachelor"
+    },
+    {
+      "institution": "Paris Dauphine",
+      "website": "https://dauphine.psl.eu",
+      "startDate": "2016-09-01",
+      "endDate": "2017-06-30",
+      "area": "Première année en Maths et Informatioque",
+      "studyType": "Bachelor"
+    },
+    {
+      "institution": "Lycée Champlain Chennevières-sur-Marne",
+      "website": "https://www.lyceeschamplain.fr/wp/",
+      "startDate": "2013-09-01",
+      "endDate": "2016-06-30",
+      "area": "Baccalauréat S Spé Maths",
+      "studyType": "Bachelor",
+      "summary": "Mention Bien"
+    }
+  ],
+  "languages": [
+    {
+      "language": "🇺🇸 Anglais",
+      "level": "C1"
+    },
+    {
+      "language": "🇫🇷 Français",
+      "level": "Natif"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement : Jeux Vidéo",
+      "keywords": [
+        {
+          "display": "Unity 3D",
+          "website": "https://fr.wikipedia.org/wiki/Unity_(moteur_de_jeu)"
+        },
+        {
+          "display": "C♯",
+          "website": "https://fr.wikipedia.org/wiki/C_sharp"
+        },
+        {
+          "display": "OpenGL",
+          "website": "https://fr.wikipedia.org/wiki/OpenGL"
+        },
+        {
+          "display": "Houdini",
+          "website": "https://fr.wikipedia.org/wiki/Houdini_(logiciel)"
+        },
+        {
+          "display": "VR",
+          "website": "https://fr.wikipedia.org/wiki/Réalité_virtuelle"
+        },
+        {
+          "display": "AR",
+          "website": "https://fr.wikipedia.org/wiki/Réalité_augmentée"
+        },
+        "Game Design",
+        "IA et Machine Learning"
+      ]
+    },
+    {
+      "name": "Développement Web",
+      "keywords": [
+        {
+          "display": "Nuxt.js (Vue.js)",
+          "website": "https://nuxtjs.org"
+        },
+        {
+          "display": "Node.js",
+          "website": "https://nodejs.org/fr/"
+        },
+        {
+          "display": "MongoDB",
+          "website": "https://www.mongodb.com"
+        }
+      ]
+    },
+    {
+      "name": "Autre Langages",
+      "keywords": ["C++", "Kotlin", "Python"]
+    }
+  ]
 }

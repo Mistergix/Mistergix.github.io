@@ -9,18 +9,21 @@
         ><a
           :href="item.links.gitlab"
           :aria-label="`${item.display}'s GitLab profile`"
+          target="_blank"
         >
           <CustomIcon :type="'gitlab'" class="mr-1" />
         </a>
         <a
           :href="item.links.github"
           :aria-label="`${item.display}'s Github profile`"
+          target="_blank"
         >
           <CustomIcon :type="'github'" class="mr-1" />
         </a>
         <a
           :href="item.links.github"
           :aria-label="`${item.display}'s Github profile`"
+          target="_blank"
         >
           {{ item.display }}
         </a>
@@ -30,6 +33,7 @@
         <a
           class="flex items-center whitespace-no-wrap mr-6 lg:mr-0 print:mr-0 mb-2 sm:mb-0"
           :href="item.link"
+          target="_blank"
         >
           <CustomIcon :type="item.type" class="mr-1" />
           {{ item.display }}
