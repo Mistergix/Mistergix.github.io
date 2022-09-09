@@ -42,7 +42,26 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '~/modules/create-pdf.js',
   ],
+
+  pdf: {
+    i18n: false,
+
+    routes: [
+      {
+        file: 'Nicolas Ruche - Résumé.pdf',
+
+        route: '/resume',
+
+        keep: true,
+
+        meta: {
+          title: 'CV Nicolas RUCHE',
+        },
+      },
+    ],
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
