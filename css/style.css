@@ -23,17 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#indie-studio-link{
-  color: white;
-  outline-style: solid;
-  padding: 1rem;
-  border-radius: 1rem;
-}
 
-#indie-studio-link:hover{
-  background-color: white;
-  color: black;
-}
 
 #page {
   position: relative;
